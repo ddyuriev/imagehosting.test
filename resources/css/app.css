@@ -1,0 +1,6 @@
+@import "~bootstrap";
+
+#images .download-arrow {
+    font-size: xx-large;
+    color: rgba(173, 150, 14, 0.89)
+}

@@ -4,8 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "fa8c324ca4142928bf9efb76ce4a400b",
     "packages": [
+        {
+            "name": "anyascii/anyascii",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anyascii/php.git",
+                "reference": "547d6665653d4ef44765a9d751c837881ae50254"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anyascii/php/zipball/547d6665653d4ef44765a9d751c837881ae50254",
+                "reference": "547d6665653d4ef44765a9d751c837881ae50254",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "AnyAscii": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Hunter WB",
+                    "homepage": "https://hunterwb.com"
+                }
+            ],
+            "description": "Unicode to ASCII transliteration",
+            "homepage": "https://anyascii.com",
+            "keywords": [
+                "ascii",
+                "emoji",
+                "normalization",
+                "romanization",
+                "slug",
+                "transliteration",
+                "unicode",
+                "unidecode",
+                "utf8"
+            ],
+            "support": {
+                "issues": "https://github.com/anyascii/php/issues",
+                "source": "https://github.com/anyascii/php/tree/v0.3.2"
+            },
+            "time": "2023-03-15T22:49:23+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
@@ -8128,7 +8180,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "ext-iconv": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
